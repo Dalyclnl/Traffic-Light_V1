@@ -40,3 +40,4 @@ It takes just 2 minutes to deploy, [click here to start the process](https://git
 - One-command publish of the code to github pages with `npm run deploy:github`.
 - Babel 7 (really fast).
 # semaforo-practica
+# semaforo-practica
