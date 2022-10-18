@@ -1,11 +1,52 @@
 
-/* 
+.trafficTop{
+width: 100px;
+height: 200px;
+display: grid;
+place-items: center;
+background-color :rgb(207, 198, 198);
+padding: 10px;
+border-radius: 30px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+#red-ligth{
+background-color:rgb(245, 10, 10);
+max-width: 50px;
+min-height: 50px;
+border-radius: 30px;
+} 
+
+#yellow-ligth{
+    background-color:rgb(243, 247, 14);
+    max-width: 50px;
+    min-height: 50px;
+    border-radius: 30px; 
+}
+
+#green-ligth{
+    background-color:rgb(6, 167, 60);
+    max-width: 50px;
+    min-height: 50px;
+    border-radius: 30px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
     
     import 'relative/path/to/stylesheet.scss';
 
