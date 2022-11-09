@@ -7,8 +7,8 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-import TrafficL from "./component/TrafficL.js";
+
 
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Home/>, document.querySelector("#app"));
