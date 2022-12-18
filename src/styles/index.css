@@ -1,36 +1,38 @@
 
-.trafficbox{
-width: 100px;
-height: 200px;
-display: grid;
-place-items: center;
-background-color :rgb(207, 198, 198);
-padding: 10px;
-border-radius: 30px;
+#trafficbox{
+    width: 100px;
+    height: 250px;
+    background-color :rgb(207, 198, 198);
+    padding: 10px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
-.light red{
+ 
+.light-red{
     background-color:red;
-    border-color: black;
-    border-style: solid;
-    border-radius: 30px;
-    max-width: 50px;
+    border-style:  1px solid black;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
 } 
 
-.light yellow{
+.light-yellow{
     background-color:yellow;
-    border-color: black;
-    border-style: 50px;
-    border-radius: 30px; 
-    max-width: 50px;
+    border-style:  1px solid black;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
 }
 
-.light green{
+.light-green{
     background-color:green;
-    border-color: black;
-    border-style:solid;
-    border-radius: 30px; 
-    max-width: 50px;
+    border-style:  1px solid black;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 
